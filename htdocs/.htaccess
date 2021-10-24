@@ -1,0 +1,6 @@
+RewriteEngine on
+
+RewriteRule ^create/$ /create.php
+
+RewriteCond %{REQUEST_URI} !^/create/
+RewriteRule ^(.*)/$ /detail.php?code=$1

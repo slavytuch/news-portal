@@ -1,0 +1,10 @@
+{
+  "autoload": {
+    "psr-4": {
+      "NewsPortal\\": "src/"
+    }
+  },
+  "require": {
+    "vlucas/phpdotenv": "^5.3"
+  }
+}
